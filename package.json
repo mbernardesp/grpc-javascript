@@ -1,0 +1,29 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "description": "Repository for grpc based projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbernardesp/grpc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbernardesp/grpc/issues"
+  },
+  "homepage": "https://github.com/mbernardesp/grpc#readme",
+  "devDependencies": {
+    "google-protobuf": "^3.21.2",
+    "protobufjs": "^7.1.2"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.0",
+    "@grpc/proto-loader": "^0.7.4",
+    "grpc": "^1.24.11"
+  }
+}
